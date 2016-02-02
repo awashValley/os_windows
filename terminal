@@ -3,4 +3,24 @@
    > cd/d c:\Users\mrx\Desktop
    
 ## list docs
-   > dir
+   >dir
+
+## list only docs, i.e., without date, time, etc. ; 
+   >dir /b 
+   >dir /b *.log
+
+## display subfolders. ;
+   >dir /b /s
+   >dir /b /s *.log
+   
+## search text in a file. ;
+   >find "pay" myfile.txt
+   
+## copy a file.;
+   >copy con search.txt
+   
+## find list of strings stored in search.txt in a log file 
+   >findstr /i /n /g:search.txt mylog.log
+
+## find list of strings stored in search.txt in a log file, except the other values 
+   >findstr /i /n /g:search.txt mylog.log | findstr /i /iv /g:search_not.txt
