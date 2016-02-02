@@ -19,8 +19,8 @@
 ## copy a file.;
    >copy con search.txt
    
-## find list of strings stored in search.txt in a log file 
+## find list of strings stored in search.txt from log file 
    >findstr /i /n /g:search.txt mylog.log
 
-## find list of strings stored in search.txt in a log file, except the other values 
+## find list of strings stored in search.txt from log file, except the other values stored in search_not.txt
    >findstr /i /n /g:search.txt mylog.log | findstr /i /iv /g:search_not.txt
