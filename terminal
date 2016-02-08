@@ -8,7 +8,7 @@
 ## paste
    > right click
 
-## list only docs, i.e., without date, time, etc. ; 
+## list files only, i.e., without date, time, etc. ; 
    >dir /b 
    >dir /b *.log
 
