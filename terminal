@@ -22,7 +22,8 @@
 ## copy a file.;
    >copy con search.txt
    
-## find list of strings stored in search.txt from log file 
+## find list of strings stored in search.txt from log file
+## the option 'i' is used for case insensitive feature
    >findstr /i /n /g:search.txt mylog.log
 
 ## find list of strings stored in search.txt from log file, except the other values stored in search_not.txt
