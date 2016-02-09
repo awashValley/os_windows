@@ -5,6 +5,9 @@
 ## list docs
    >dir
    
+## display global environmental variables
+   > echo %PATH%
+   
 ## paste
    > right click
 
