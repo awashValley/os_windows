@@ -35,7 +35,7 @@
 ## [10MAR2016] View text file
    > type test.txt
 
-## [10MAR2016] Open and Modify text file
+## [10MAR2016] Open and Modify text file. This command can also be used to create new text file.
    > start notepad test.txt
    
    
